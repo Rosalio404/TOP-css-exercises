@@ -1,0 +1,12 @@
+.fir-btn,
+.sec-btn {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+.fir-btn {
+    background-color: black;
+    color: white;
+}
+.sec-btn {
+    background-color: yellow;
+}
