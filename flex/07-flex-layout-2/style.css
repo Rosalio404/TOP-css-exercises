@@ -5,13 +5,13 @@ body {
 }
 
 .header {
-  height: 72px;
+  height: 54px;
   background: darkmagenta;
   color: white;
 }
 
 .footer {
-  height: 72px;
+  height: 54px;
   background: #eee;
   color: darkmagenta;
 }
@@ -25,4 +25,80 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+/* Changes */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Header */
+
+.header {
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 24px;
+  padding-left: 16px;
+}
+
+/* Content */
+
+.content {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+/* Sidebar */
+
+.sidebar {
+  flex: 0 0 250px;
+  font-size: 16px;
+}
+
+ul {
+  margin: 0;
+  padding: 12px 0 0 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Cards */
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 11px;
+  font-weight: 500;
+  margin: 36px;
+  gap: 24px;
+}
+
+.card {
+  padding: 10px;
+  flex: 0 1 220px;
+  display: flex;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
 }
